@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  height: 100vh;
+  /* flex-wrap: wrap; */
+}
+
+.developer__bio {
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.projects {
+  flex: 2;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .projects {
+    overflow-y: visible;
+  }
+}

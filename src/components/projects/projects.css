@@ -1,0 +1,40 @@
+.projects__container {
+  width: 75%;
+  margin: 100px auto;
+  min-width: 350px;
+}
+
+.projects__header__text {
+  text-align: right;
+}
+
+.projects__header__text > h1 {
+  margin: 0;
+}
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects__header__text {
+    text-align: center;
+  }
+
+  .projects__container {
+    width: 90%;
+  }
+}

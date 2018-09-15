@@ -1,0 +1,36 @@
+.bio {
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  flex: 1 1 40%;
+  flex-flow: column wrap;
+}
+
+.bio img {
+  height: 200px;
+  width: 159px;
+  border: 0.4rem solid #f2c215;
+  border-radius: 0.5rem;
+}
+
+.bio p {
+  color: #fff;
+  max-width: 400px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.aboutme {
+  max-width: 400px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bio {
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+  }
+}

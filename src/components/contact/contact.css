@@ -1,0 +1,23 @@
+.contact {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h1 {
+  margin-bottom: 40px;
+}
+
+.contact > h1:after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 10px;
+  width: 100px;
+  background-color: #fff;
+}
+
+.social__media__icon {
+  height: 50px;
+  margin-top: 50px;
+}

@@ -1,0 +1,33 @@
+.about {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin: 20px auto;
+}
+.topTitle {
+  border-top: 2px solid #f2c215;
+  border-bottom: 2px solid #f2c215;
+  width: 100%;
+  text-align: center;
+}
+.skills {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+/* slide up animations for reactCSSTransitionGroup */
+.slide-up-appear {
+  opacity: 0.1;
+  transform: translateY(400px);
+}
+
+.slide-up-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 400ms ease-in-out;
+}
