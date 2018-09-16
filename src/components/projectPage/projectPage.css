@@ -67,6 +67,12 @@ button {
   margin-bottom: 10px;
   background: none;
   color: white;
-  border: none;
+  border: 2px solid #f2c215;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects__container {
+    margin: 10px auto;
+  }
 }

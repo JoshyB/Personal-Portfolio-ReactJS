@@ -11,6 +11,8 @@ class App extends Component {
       <div className="App">
         <section className="developer__bio">
           <Bio />
+        </section>
+        <section className="contact__info">
           <Contact />
         </section>
         <section className="projects">

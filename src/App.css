@@ -1,7 +1,6 @@
 .App {
   display: flex;
   height: 100vh;
-  /* flex-wrap: wrap; */
 }
 
 .developer__bio {
@@ -14,6 +13,12 @@
   overflow-y: auto;
 }
 
+.contact__info {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .App {
     flex-direction: column;
@@ -21,5 +26,20 @@
 
   .projects {
     overflow-y: visible;
+  }
+
+  /* changing the order of the developer__bio, contact__info, projects sections to accommodate mobile devices */
+
+  .developer__bio {
+    order: 1;
+  }
+
+  .contact__info {
+    position: inherit;
+    order: 3;
+  }
+
+  .projects {
+    order: 2;
   }
 }

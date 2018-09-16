@@ -36,7 +36,7 @@ class projectPage extends Component {
       >
         <div className="project__page__container">
           <button onClick={this.goBack}>⬅ Go Back</button>
-          <div className="project__page__body">
+          <article className="project__page__body">
             <div className="image">
               <img
                 src={images ? window.location.origin + images[0] : ""}
@@ -52,7 +52,7 @@ class projectPage extends Component {
               </div>
               <div className="about">{about}</div>
             </div>
-          </div>
+          </article>
           <button onClick={this.goBack}>⬅ Go Back</button>
         </div>
       </ReactCSSTransitionGroup>

@@ -3,10 +3,18 @@ import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "./About.css";
 
 class About extends Component {
+  constructor(props) {
+    super(props);
+    this.goBack = this.goBack.bind(this);
+  }
+
+  goBack() {
+    this.props.history.goBack();
+  }
   render() {
     return (
       <ReactCSSTransitionGroup
-        component="section"
+        component="article"
         className="about"
         transitionName="slide-up"
         transitionAppear={true}
@@ -16,6 +24,8 @@ class About extends Component {
         transitionLeave={true}
         transitionLeaveTimeout={400}
       >
+        <button onClick={this.goBack}>⬅ Go Back</button>
+
         <div className="topTitle">
           <h1>About Me, Skills and Interest</h1>
         </div>
@@ -53,6 +63,7 @@ class About extends Component {
             beautiful wife.{" "}
           </p>
         </section>
+        <button onClick={this.goBack}>⬅ Go Back</button>
       </ReactCSSTransitionGroup>
     );
   }

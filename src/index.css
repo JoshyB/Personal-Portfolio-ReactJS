@@ -31,3 +31,17 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+button {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  background: none;
+  align-self: flex-start;
+  color: white;
+  border: 2px solid #f2c215;
+  cursor: pointer;
+}
+
+button:nth-of-type(2) {
+  margin-top: 20px;
+}
