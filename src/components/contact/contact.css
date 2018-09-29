@@ -8,6 +8,11 @@
   margin-bottom: 40px;
 }
 
+/* adding some text shadow to my mailto for contrast and accesibility */
+.contact a:nth-child(2) {
+  text-shadow: 2px 2px 2px #000;
+}
+
 .contact > h1:after {
   content: "";
   display: block;

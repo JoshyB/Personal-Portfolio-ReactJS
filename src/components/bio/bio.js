@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./bio.css";
 
 class Bio extends Component {
@@ -21,7 +21,8 @@ class Bio extends Component {
           <a href="https://www.google.com/maps/place/Columbus,+OH/@39.9829514,-82.990829,11z/data=!4m2!3m1!1s0x883889c1b990de71:0xe43266f8cfb1b533">
             Columbus, Ohio
           </a>{" "}
-          where I create awesome websites and web applications.
+          where I create awesome websites and web applications for fun, and
+          sometimes profit.
         </p>
         <div className="aboutme">
           <Link to={window.location.href.includes("about") ? "/" : "/about"}>

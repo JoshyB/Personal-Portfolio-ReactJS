@@ -62,14 +62,14 @@
   transition: all 400ms ease-in-out;
 }
 
-button {
+/* button {
   font-size: 1.2rem;
   margin-bottom: 10px;
   background: none;
   color: white;
   border: 2px solid #f2c215;
   cursor: pointer;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .projects__container {

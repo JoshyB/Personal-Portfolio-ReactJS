@@ -6,6 +6,7 @@
   flex-direction: column;
   color: #fff;
   margin: 20px auto;
+  padding: 20px;
 }
 .topTitle {
   border-top: 2px solid #f2c215;

@@ -15,9 +15,7 @@ class projectPage extends Component {
   render() {
     const {
       name,
-      description,
       tools,
-      website,
       about,
       images
     } = this.props.location.state.projectInfo;

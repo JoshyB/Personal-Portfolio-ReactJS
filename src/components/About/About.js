@@ -38,7 +38,6 @@ class About extends Component {
             <p>SCSS</p>
             <p>Node.js</p>
             <p>Mobile & Responsive Design</p>
-            <p>PHP</p>
           </div>
           <div className="tools">
             <h3>Tools & Libraries</h3>
@@ -52,17 +51,19 @@ class About extends Component {
             <p>Affinity Photo</p>
           </div>
         </div>
-        <section className="moreAbout">
+        <article className="moreAbout">
           <p>
             <strong>I love web development; </strong>
             I'm Joshua Belknap, a developer living and working in Columbus,
-            Ohio. I have been doing web developement for just a little under 4
+            Ohio. I have been doing web developement for just a little over 3
             years. I love to learn, and create things on the web. When I'm not
-            slinging divs, writing code, or designing a landing page, you can
-            usually find me hanging out with my awesome 2 year old daughter and
-            beautiful wife.{" "}
+            slinging divs, writing code, or designing a landing page, I'm
+            usually spending time with my lovely two-year old daughter and
+            beautiful wife Bailey. We love to travel, cook, and spend as much
+            time as we can outside hiking, fishing or just exploring various
+            little pockets of Columbus, Ohio and neghboring areas.
           </p>
-        </section>
+        </article>
         <button onClick={this.goBack}>⬅ Go Back</button>
       </ReactCSSTransitionGroup>
     );

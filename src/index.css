@@ -38,7 +38,7 @@ button {
   background: none;
   align-self: flex-start;
   color: white;
-  border: 2px solid #f2c215;
+  border: 1px solid #f2c215;
   cursor: pointer;
 }
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./card.css";
 
 class Card extends Component {
@@ -11,6 +11,7 @@ class Card extends Component {
           to={{
             pathname: `/projects/${this.props.item}`,
             state: {
+              // this passes the data down once again to generate each project page with more detailed data; "prop drilling" weeee
               projectInfo: this.props.details
             }
           }}
