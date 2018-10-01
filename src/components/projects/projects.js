@@ -25,7 +25,7 @@ class Projects extends Component {
       <ReactCSSTransitionGroup
         component="section"
         className="projects__container"
-        transitionName="fade"
+        transitionName="slide-up"
         transitionAppear={true}
         transitionAppearTimeout={300}
         transitionEnter={true}

@@ -22,7 +22,7 @@ class Bio extends Component {
             Columbus, Ohio
           </a>{" "}
           where I create awesome websites and web applications for fun, and
-          sometimes profit.
+          profit.
         </p>
         <div className="aboutme">
           <Link to={window.location.href.includes("about") ? "/" : "/about"}>

@@ -26,12 +26,12 @@
 
 .project__text {
   width: 100%;
-  padding: 50px;
+  padding: 50px 0;
 }
 
-.project__text > div {
+/* .project__text > div {
   margin: 30px auto;
-}
+} */
 
 .tools__used {
   width: 100%;
@@ -44,10 +44,11 @@
   opacity: 0.9;
 }
 
-.about {
+.about__project {
   opacity: 0.9;
   max-width: 38em;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 /* slide up animations for reactCSSTransitionGroup */
@@ -62,17 +63,11 @@
   transition: all 400ms ease-in-out;
 }
 
-/* button {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  background: none;
-  color: white;
-  border: 2px solid #f2c215;
-  cursor: pointer;
-} */
-
 @media only screen and (max-width: 1024px) {
   .projects__container {
     margin: 10px auto;
   }
 }
+
+/* @media only screen and (max-width: 480px) {
+} */

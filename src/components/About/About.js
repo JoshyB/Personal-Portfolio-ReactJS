@@ -64,7 +64,6 @@ class About extends Component {
             little pockets of Columbus, Ohio and neghboring areas.
           </p>
         </article>
-        <button onClick={this.goBack}>⬅ Go Back</button>
       </ReactCSSTransitionGroup>
     );
   }

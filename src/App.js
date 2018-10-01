@@ -11,11 +11,11 @@ class App extends Component {
         <section className="developer__bio">
           <Bio />
         </section>
-        <section className="contact__info">
-          <Contact />
-        </section>
         <section className="projects">
           <Content />
+        </section>
+        <section className="contact__info">
+          <Contact />
         </section>
       </div>
     );

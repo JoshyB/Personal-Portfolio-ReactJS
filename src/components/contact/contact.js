@@ -5,15 +5,11 @@ class Contact extends Component {
   render() {
     return (
       <section className="contact">
-        <h1>Get in touch</h1>
-        <a href="mailto:seejoshcode@gmail.com">seejoshcode@gmail.com</a>
-        <a href="https://github.com/JoshyB">
-          <img
-            className="social__media__icon"
-            src={window.location.origin + "/images/github.svg"}
-            alt="Github cat icon"
-          />
-        </a>
+        <h3>Get it touch</h3>
+        <div className="row__container">
+          <a href="https://www.github.com/joshyb">GitHub</a>
+          <a href="mailto:seejoshcode@gmail.com">Email</a>
+        </div>
       </section>
     );
   }

@@ -1,28 +1,28 @@
 .contact {
+  text-align: center;
   padding: 50px;
   display: flex;
   flex-direction: column;
 }
 
-.contact h1 {
-  margin-bottom: 40px;
+.contact > div {
+  margin: 10px;
 }
 
-/* adding some text shadow to my mailto for contrast and accesibility */
-.contact a:nth-child(2) {
-  text-shadow: 2px 2px 2px #000;
-}
-
-.contact > h1:after {
-  content: "";
+.contact h3:after {
   display: block;
+  content: "";
   height: 1px;
-  margin-top: 10px;
-  width: 100px;
+  width: 50%;
   background-color: #fff;
+  margin: 0 auto;
+}
+.contact a {
+  margin: 20px;
 }
 
-.social__media__icon {
-  height: 50px;
-  margin-top: 50px;
+@media only screen and (max-width: 1024px) {
+  .contact {
+    padding: 15px;
+  }
 }

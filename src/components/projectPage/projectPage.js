@@ -48,10 +48,11 @@ class projectPage extends Component {
               <div className="project__title">
                 <h1>{name}</h1>
               </div>
-              <div className="about">{about}</div>
+              <div className="about__project">
+                <p>{about}</p>
+              </div>
             </div>
           </article>
-          <button onClick={this.goBack}>⬅ Go Back</button>
         </div>
       </ReactCSSTransitionGroup>
     );
