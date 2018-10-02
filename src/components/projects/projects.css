@@ -26,6 +26,7 @@
 
 .fade-appear-active {
   opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -35,6 +36,7 @@
 
 .fade-leave-active {
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 

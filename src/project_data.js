@@ -2,7 +2,7 @@ const projects = {
   rcollins: {
     name: "Rebecca Collins Therapy",
     website: "rcollinstherapy.com",
-    images: ["/images/rcollinsSite.png"],
+    images: ["/images/rcollinsSite.jpg"],
     description:
       "A website for a Mental Health and Sex Therapist in Columbus, Ohio",
     tools: "Node, Express, Pug/Jade",
@@ -12,7 +12,7 @@ const projects = {
   cbusparks: {
     name: "cbusparks",
     website: "cbusparks.fun",
-    images: ["/images/cbusparks1.png"],
+    images: ["/images/cbusparks1.jpg"],
     description:
       "Cbusparks is a full stack web application that allows people to view, add, edit, upload photos and review parks and playgrounds in the Columbus, Ohio area",
     tools: "Node, Express, Pug/Jade, MongoDB",
@@ -22,7 +22,7 @@ const projects = {
   homeglow: {
     name: "Homeglow Imaging",
     website: "homeglowimaging.com",
-    images: ["/images/homeglow.png"],
+    images: ["/images/homeglow.jpg"],
     description:
       "Website for a local Real Estate Photography company operating in and around the Columbus, Ohio area.",
     tools: "Javascript, HTML, Bulma(CSS Framework), PHP",

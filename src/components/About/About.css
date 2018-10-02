@@ -1,8 +1,17 @@
 .about {
   width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   color: #fff;
   margin: 20px auto;
@@ -15,20 +24,26 @@
   text-align: center;
 }
 .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   text-align: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
 /* slide up animations for reactCSSTransitionGroup */
 .slide-up-appear {
   opacity: 0.1;
+  -webkit-transform: translateY(400px);
   transform: translateY(400px);
 }
 
 .slide-up-appear-active {
   opacity: 1;
+  -webkit-transform: translateY(0px);
   transform: translateY(0px);
+  -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
 }

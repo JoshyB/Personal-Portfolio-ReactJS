@@ -2,6 +2,7 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -51,6 +52,7 @@ button {
   font-size: 1.2rem;
   margin-bottom: 20px;
   background: none;
+  -ms-flex-item-align: start;
   align-self: flex-start;
   color: white;
   border: none;
@@ -63,5 +65,8 @@ button:nth-of-type(2) {
 }
 
 .row__container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }

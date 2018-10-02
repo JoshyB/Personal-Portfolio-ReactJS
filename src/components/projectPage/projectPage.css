@@ -5,6 +5,7 @@
 }
 
 .project__page__body {
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
   background: url(../../privateImages/projectBG.svg);
   background-size: cover;
@@ -54,12 +55,15 @@
 /* slide up animations for reactCSSTransitionGroup */
 .slide-up-appear {
   opacity: 0.1;
+  -webkit-transform: translateY(400px);
   transform: translateY(400px);
 }
 
 .slide-up-appear-active {
   opacity: 1;
+  -webkit-transform: translateY(0px);
   transform: translateY(0px);
+  -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
 }
 
