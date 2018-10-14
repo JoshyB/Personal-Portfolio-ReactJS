@@ -33,7 +33,7 @@ class About extends Component {
           <div className="languages">
             <h3>Core Skills</h3>
             <p>HTML5</p>
-            <p>Javascript</p>
+            <p>JavaScript</p>
             <p>CSS3</p>
             <p>SCSS</p>
             <p>Node.js</p>

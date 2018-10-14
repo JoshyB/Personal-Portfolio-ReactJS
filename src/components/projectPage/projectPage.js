@@ -26,11 +26,11 @@ class projectPage extends Component {
         className="projectPage"
         transitionName="slide-up"
         transitionAppear={true}
-        transitionAppearTimeout={400}
+        transitionAppearTimeout={350}
         transitionEnter={true}
-        transitionEnterTimeout={400}
+        transitionEnterTimeout={350}
         transitionLeave={true}
-        transitionLeaveTimeout={400}
+        transitionLeaveTimeout={350}
       >
         <div className="project__page__container">
           <button onClick={this.goBack}>⬅ Go Back</button>

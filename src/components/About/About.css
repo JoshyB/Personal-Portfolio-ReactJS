@@ -22,6 +22,7 @@
   border-bottom: 2px solid #f2c215;
   width: 100%;
   text-align: center;
+  margin-bottom: 15px;
 }
 .skills {
   display: -webkit-box;
@@ -31,6 +32,10 @@
   text-align: center;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+}
+
+.moreAbout {
+  max-width: 38em;
 }
 
 /* slide up animations for reactCSSTransitionGroup */

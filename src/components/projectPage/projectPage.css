@@ -57,14 +57,15 @@
   opacity: 0.1;
   -webkit-transform: translateY(400px);
   transform: translateY(400px);
+  will-change: transform;
 }
 
 .slide-up-appear-active {
   opacity: 1;
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
 }
 
 @media only screen and (max-width: 1024px) {

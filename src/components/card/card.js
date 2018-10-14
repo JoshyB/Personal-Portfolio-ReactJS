@@ -11,7 +11,7 @@ class Card extends Component {
           to={{
             pathname: `/projects/${this.props.item}`,
             state: {
-              // this passes the data down once again to generate each project page with more detailed data; "prop drilling" weeee
+              // this passes the data down once again to generate each project page(pojectPage.js) with more detailed data; "prop drilling" weeee
               projectInfo: this.props.details
             }
           }}
