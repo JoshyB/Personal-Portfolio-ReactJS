@@ -10,9 +10,7 @@ const Content = () => {
     <Switch>
       <Route exact path="/" component={Projects} />
       <Route path="/about" component={About} />
-      <Route path="/projects/rcollins" component={ProjectPage} />
-      <Route path="/projects/cbusparks" component={ProjectPage} />
-      <Route path="/projects/homeglow" component={ProjectPage} />
+      <Route path="/projects/:projectName" component={ProjectPage} />
       <Route component={NotFound} />
     </Switch>
   );

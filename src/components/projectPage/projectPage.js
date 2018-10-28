@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "./projectPage.css";
+import projectData from "../../project_data";
 
 class projectPage extends Component {
   constructor(props) {
     super(props);
     this.goBack = this.goBack.bind(this);
+    this.state = {
+      projectData: {}
+    };
+  }
+
+  componentDidMount() {
+    const { projectName } = this.props.match.params;
+    this.setState({
+      projectData: projectData[projectName]
+    });
   }
 
   goBack() {
@@ -13,12 +24,7 @@ class projectPage extends Component {
   }
 
   render() {
-    const {
-      name,
-      tools,
-      about,
-      images
-    } = this.props.location.state.projectInfo;
+    const { name, tools, about, images } = this.state.projectData;
 
     return (
       <ReactCSSTransitionGroup

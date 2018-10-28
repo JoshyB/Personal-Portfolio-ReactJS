@@ -7,16 +7,7 @@ class Card extends Component {
     const { name, description, tools } = this.props.details;
     return (
       <li>
-        <Link
-          to={{
-            pathname: `/projects/${this.props.item}`,
-            state: {
-              // this passes the data down once again to generate each project page(pojectPage.js) with more detailed data; "prop drilling" weeee
-              projectInfo: this.props.details
-            }
-          }}
-          className="card"
-        >
+        <Link to={`/projects/${this.props.item}`} className="card">
           <div className="title">
             <h1>{name}</h1>
           </div>

@@ -53,15 +53,16 @@ class About extends Component {
         </div>
         <article className="moreAbout">
           <p>
-            <strong>I love web development; </strong>
+            <strong>I love web development. </strong>
             I'm Joshua Belknap, a developer living and working in Columbus,
             Ohio. I have been doing web developement for just a little over 3
             years. I love to learn, and create things on the web. When I'm not
             slinging divs, writing code, or designing a landing page, I'm
-            usually spending time with my lovely two-year old daughter and
+            usually spending time with my lovely two-year old daughter and my
             beautiful wife Bailey. We love to travel, cook, and spend as much
-            time as we can outside hiking, fishing or just exploring various
-            little pockets of Columbus, Ohio and neghboring areas.
+            time as we can outside hiking, visiting playgrounds or just
+            exploring various little pockets of Columbus, Ohio and neghboring
+            areas.
           </p>
         </article>
       </ReactCSSTransitionGroup>
