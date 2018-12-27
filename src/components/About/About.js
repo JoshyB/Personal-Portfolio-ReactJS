@@ -9,7 +9,7 @@ class About extends Component {
   }
 
   goBack() {
-    this.props.history.goBack();
+    this.props.history.push("/");
   }
   render() {
     return (
@@ -36,6 +36,7 @@ class About extends Component {
             <p>JavaScript</p>
             <p>CSS3</p>
             <p>SCSS</p>
+            <p>MongoDB</p>
             <p>Node.js</p>
             <p>Mobile & Responsive Design</p>
           </div>
@@ -45,6 +46,7 @@ class About extends Component {
             <p>Express.js</p>
             <p>Gulp</p>
             <p>Webpack</p>
+            <p>Parcel</p>
             <p>Bulma</p>
             <p>Bootstrap</p>
             <p>Sketch</p>
@@ -55,14 +57,11 @@ class About extends Component {
           <p>
             <strong>I love web development. </strong>
             I'm Joshua Belknap, a developer living and working in Columbus,
-            Ohio. I have been doing web developement for just a little over 3
-            years. I love to learn, and create things on the web. When I'm not
-            slinging divs, writing code, or designing a landing page, I'm
-            usually spending time with my lovely two-year old daughter and my
-            beautiful wife Bailey. We love to travel, cook, and spend as much
-            time as we can outside hiking, visiting playgrounds or just
-            exploring various little pockets of Columbus, Ohio and neghboring
-            areas.
+            Ohio. I have been doing web developement for a little under 4 years.
+            I typically work with HTML5, CSS3, and Javascript, but I love to
+            pick up new web technologies and learn all about them. When I'm not
+            slinging divs, writing code, or designing a landing page, I enjoy
+            spending time with my family, cooking, and traveling.
           </p>
         </article>
       </ReactCSSTransitionGroup>

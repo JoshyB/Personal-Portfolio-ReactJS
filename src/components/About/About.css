@@ -36,6 +36,7 @@
 
 .moreAbout {
   max-width: 38em;
+  margin-top: 20px;
 }
 
 /* slide up animations for reactCSSTransitionGroup */

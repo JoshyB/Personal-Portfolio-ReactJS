@@ -20,7 +20,7 @@ class projectPage extends Component {
   }
 
   goBack() {
-    this.props.history.goBack();
+    this.props.history.push("/");
   }
 
   render() {
