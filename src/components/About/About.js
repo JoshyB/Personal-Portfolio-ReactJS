@@ -36,14 +36,15 @@ class About extends Component {
             <p>JavaScript</p>
             <p>CSS3</p>
             <p>SCSS</p>
-            <p>MongoDB</p>
+            <p>React.js</p>
+            <p>Express.js</p>
             <p>Node.js</p>
+            <p>MongoDB</p>
             <p>Mobile & Responsive Design</p>
           </div>
           <div className="tools">
             <h3>Tools & Libraries</h3>
-            <p>React.js</p>
-            <p>Express.js</p>
+            <p>Version Control (Git)</p>
             <p>Gulp</p>
             <p>Webpack</p>
             <p>Parcel</p>
@@ -51,6 +52,7 @@ class About extends Component {
             <p>Bootstrap</p>
             <p>Sketch</p>
             <p>Affinity Photo</p>
+            <p>Affinity Design</p>
           </div>
         </div>
         <article className="moreAbout">
