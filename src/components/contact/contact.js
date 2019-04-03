@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <section className="contact">
-        <h3>Get it touch</h3>
+        <h3>Get in touch</h3>
         <div className="row__container">
           <a href="https://www.github.com/joshyb">GitHub</a>
           <a href="mailto:seejoshcode@gmail.com">Email</a>
