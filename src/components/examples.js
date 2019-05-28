@@ -107,10 +107,7 @@ class Examples extends Component {
               <div className="card_body_text">
                 <p>{this.state.examples[key].description}</p>
               </div>
-              <a
-                className="card_button"
-                href={window.location.origin + this.state.examples[key].url}
-              >
+              <a className="card_button" href={this.state.examples[key].url}>
                 <img
                   src={window.location.origin + "/images/link_symbol.svg"}
                   alt=""
