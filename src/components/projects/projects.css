@@ -8,8 +8,9 @@
   text-align: right;
 }
 
-.projects__header__text > h1 {
+.projects__header__text > h2 {
   margin: 0;
+  font-size: 2rem;
 }
 
 .fade-enter {
