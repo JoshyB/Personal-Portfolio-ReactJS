@@ -11,6 +11,7 @@ const Content = () => {
       <Route exact path="/" component={Projects} />
       <Route path="/about" component={About} />
       <Route path="/projects/:projectName" component={ProjectPage} />
+      <Route onEnter={() => window.location.reload()} />
       <Route component={NotFound} />
     </Switch>
   );
