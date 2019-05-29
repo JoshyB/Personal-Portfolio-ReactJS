@@ -4,7 +4,6 @@ import examples from "../examples_data";
 
 const ExamplesWrap = styled.section`
   width: 75%;
-  height: auto;
   margin: 0 auto;
   margin: 100px auto;
 
@@ -30,13 +29,24 @@ const ExamplesWrap = styled.section`
 
       a {
         display: inline-block;
-        background: dodgerblue;
         width: 80px;
-        padding: 5px;
+        height: 40px;
         color: white;
         border-radius: 0.2rem;
-        margin: 15px;
+        border: 1px solid #f2c215;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+        margin: 12px;
         text-align: center;
+
+        &:hover {
+          border: 2px solid #f2c215;
+        }
+
+        img {
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
       }
 
       img {

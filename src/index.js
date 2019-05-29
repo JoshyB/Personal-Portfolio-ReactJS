@@ -12,5 +12,4 @@ ReactDOM.render(
   </Router>,
   document.getElementById("root")
 );
-
-unregister();
+unregister(); //having issues with react-router linking to external sites in chrome...this fixes it....no idea why or how
