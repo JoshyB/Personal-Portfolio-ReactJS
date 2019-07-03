@@ -3,7 +3,7 @@ const examples = {
     name: "GoodBoiCo",
     description: "Responsive experimental layout using CSS Grid",
     image: "/examples/screencaps/goodboico.jpg",
-    url: "https://goodboico.herokuapp.com/"
+    url: "https://goodboico.netlify.com/"
   }
 };
 
