@@ -11,11 +11,12 @@ const ExamplesWrap = styled.section`
     width: 100%;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
 
     .example_card {
-      width: 90%;
+      width: 100%;
+      min-width: 250px;
       margin-bottom: 30px;
       border-radius: 0.2rem;
       grid-column: auto;
@@ -37,15 +38,12 @@ const ExamplesWrap = styled.section`
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
         margin: 12px;
         text-align: center;
+        cursor: pointer;
 
-        &:hover {
+        &:hover,
+        &:focus {
           border: 2px solid #f2c215;
-        }
-
-        img {
-          &:hover {
-            transform: scale(1.1);
-          }
+          transform: scale(1.1);
         }
       }
 
@@ -81,6 +79,18 @@ const ExamplesWrap = styled.section`
 
     .examples_header_text {
       text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .examples {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 340px);
+      justify-content: center;
+
+      .example_card {
+        width: 100%;
+      }
     }
   }
 `;
