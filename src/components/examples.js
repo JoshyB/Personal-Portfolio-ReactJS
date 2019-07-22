@@ -5,7 +5,7 @@ import examples from "../examples_data";
 const ExamplesWrap = styled.section`
   width: 75%;
   margin: 0 auto;
-  margin: 100px auto;
+  margin: 30px auto;
 
   .examples {
     width: 100%;
@@ -16,6 +16,7 @@ const ExamplesWrap = styled.section`
 
     .example_card {
       width: 100%;
+      height: 600px;
       min-width: 250px;
       margin-bottom: 30px;
       border-radius: 0.2rem;
@@ -39,6 +40,9 @@ const ExamplesWrap = styled.section`
         margin: 12px;
         text-align: center;
         cursor: pointer;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
 
         &:hover,
         &:focus {
