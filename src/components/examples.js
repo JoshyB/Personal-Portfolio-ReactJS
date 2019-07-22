@@ -134,7 +134,7 @@ class Examples extends Component {
               <a className="card_button" href={this.state.examples[key].url}>
                 <img
                   src={window.location.origin + "/images/link_symbol.svg"}
-                  alt=""
+                  aria-label="Link to website demo page"
                 />
               </a>
             </div>
