@@ -4,7 +4,7 @@ const examples = {
     description:
       "One page PPC site for a retirement community using HTML, CSS, JavaScript",
     image: "/examples/screencaps/baltimore.jpg",
-    url: "https://baltimoreretiremet.netlify.com/"
+    url: "https://baltimoreretirement.netlify.com/"
   },
   goodboico: {
     name: "GoodBoiCo",
