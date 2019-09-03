@@ -10,7 +10,7 @@ class Bio extends Component {
           <Link to="/">
             <img
               src={window.location.origin + "/images/joshua.jpg"}
-              alt="Joshua's portrait"
+              alt="Joshua Belknap"
             />
           </Link>
           <h1>Joshua Belknap</h1>
